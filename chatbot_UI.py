@@ -25,11 +25,10 @@ with st.container():
         color = "#0056b3" if role == "user" else "#f0f0f0"
         st.markdown(f"<div style='background-color:{color}; padding:10px; border-radius:10px; margin-bottom:10px;'>{text}</div>", unsafe_allow_html=True)
 
-# User input
-user_input = st.text_input("Type your message and press Enter:", key="user_input")
-
-# Enable "Enter" key submission
+# Define the function to send messages
 def send_message():
+    user_input = st.session_state.input_text.strip()
+
     if user_input:
         st.session_state.messages.append(("user", user_input))
 
@@ -46,7 +45,14 @@ def send_message():
                 bot_response = "Error: Unable to reach the chatbot backend."
 
         st.session_state.messages.append(("bot", bot_response))
-        st.rerun()
 
-st.text_input("Type your message and press Enter:", key="input", on_change=send_message)
+    # Clear input field after sending message
+    st.session_state.input_text = ""
+    st.rerun()
 
+# User input box with Enter key submission
+user_input = st.text_input("Type your message and press Enter:", key="input_text", on_change=send_message)
+
+# Send button
+if st.button("Send"):
+    send_message()

@@ -1,11 +1,11 @@
 {
-    "What is BGO AI?": "BGO AI is an AI-powered chatbot for customer service automation.",
-    "How does the chatbot work?": "It uses OpenAI's GPT model to understand and respond to queries.",
-    "What services does BGO AI offer?": "BGO AI provides AI-driven customer support, automation, and knowledge retrieval.",
-    "How can I contact support?": "You can reach support via email at support@bgoai.com.",
-    "What is Bill Gosling Outsourcing?": "Bill Gosling Outsourcing is a leading provider of customer experience and BPO solutions.",
-    "Where is Bill Gosling Outsourcing located?": "BGO has global offices, including Canada, the UK, the Philippines, and the USA.",
-    "What are BGO’s core values?": "BGO focuses on innovation, teamwork, and excellent customer service.",
-    "What is the Book of Bill?": "The Book of Bill is an internal document outlining BGO’s values, culture, and best practices.",
-    "How do I apply for a job at BGO?": "You can explore job opportunities on the official website: https://www.billgosling.com/careers"
+    "hello": "Hello! Welcome to BGO AI Chatbot. How can I assist you today?",
+    "what is bgo outsourcing?": "Bill Gosling Outsourcing (BGO) provides business process outsourcing (BPO), customer experience, and contact center solutions globally.",
+    "what does bgo outsourcing do?": "BGO specializes in customer support, sales, collections, and digital solutions for businesses across different industries.",
+    "who are bgo outsourcing's clients?": "BGO works with financial institutions, retail companies, telecom providers, and other businesses needing outsourced services.",
+    "how can i apply for a job at bgo outsourcing?": "You can apply for jobs at BGO by visiting their career page: https://www.billgosling.com/careers",
+    "how can i contact bgo outsourcing?": "You can contact BGO via their official website: https://www.billgosling.com/contact-us",
+    "where is bgo outsourcing located?": "BGO has multiple offices globally, including locations in Canada, the United States, the UK, the Philippines, and India.",
+    "what is bgo outsourcing's book of bill?": "The 'Book of Bill' is a collection of values and best practices that guide BGO's operations, culture, and customer service excellence.",
+    "how does bgo ai chatbot work?": "BGO AI Chatbot uses OpenAI's GPT model to process and respond to user queries based on real-time AI analysis and a knowledge base."
 }
