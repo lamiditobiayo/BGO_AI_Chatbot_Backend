@@ -3,4 +3,5 @@ openai
 python-dotenv
 requests
 flask-cors
-gunicorn  # <-- Add this line
+gunicorn
+streamlit
