@@ -5,7 +5,7 @@ import requests
 st.set_page_config(page_title="BGO AI Chatbot", page_icon="🤖", layout="wide")
 
 # API Endpoint & Secret Key
-API_URL = "https://bgo-chatbot-api.onrender.com/chat"
+API_URL = "https://bgo-ai-chatbot-backend2.onrender.com/chat"
 API_SECRET_KEY = "your_super_secret_key"
 
 # Title
